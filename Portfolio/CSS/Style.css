@@ -1,0 +1,114 @@
+
+.header {
+    font-family: 'Lato',sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    background-image: url(../Images/MeBackground_image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white
+}
+
+h1 {
+    color: white;
+    font-size: 125px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+h3 {
+    color: white;
+    font-size: 27px;
+    font-family: 'Lato',sans-serif;
+
+}
+
+p {
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato',sans-serif;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(2, 109, 126);
+    color: white;
+  }
+
+#viewwork {
+    left: 500px;
+    top: 500px;
+    position: absolute;
+	overflow: visible;
+    width: 200px;
+	height: 60px;
+    background-color: rgba(35,163,182,1);
+	border-color:white;
+	border-radius: 4px;
+    font-size: 20px;
+    color: white;
+	
+  }
+
+  .button {
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .button:hover {
+    background-color: #14162C;
+    color:white;
+}
+
+  #HI_IM_SAIR {
+	left: 500px;
+	top: 188px;
+	position: absolute;
+	overflow: visible;
+	width: 564px;
+	height: 196px;
+	text-align: left;
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 125px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.15px;
+}
+#Product_Management_Strategy__U {
+	left: 500px;
+	top: 384px;
+	position: absolute;
+	overflow: visible;
+	width: 562px;
+	height: 99px;
+	text-align: left;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	color: rgba(255,255,255,1);
+}
