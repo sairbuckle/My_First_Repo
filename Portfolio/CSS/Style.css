@@ -2,38 +2,111 @@
 .header {
     font-family: 'Lato',sans-serif;
     font-family: 'Oswald', sans-serif;
+
+
 }
-body {
+
+.parallax {
+    background-image: url(../Images/MeBackground_image.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    }
+
+
+.Hi_Header {
+    display: grid;
+    grid-template-columns: 500px 800px;
+    margin-top: 20px;
+}
+
+
+}
+
+.About {
+    display: grid;
+    grid-template-columns: 750px 750px; 
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.Skills {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+div {
+    padding: 20px;
+    justify-content: center;
+}
+
+
+section {
+    color: white;
+    border: 2px red;
+    margin-top: 40px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 750px 500px;
+}
+
+div.scroll {
     background-image: url(../Images/MeBackground_image.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white
+    color: white;
+    background-color: #14162C;
+    width: 1280px;
+    height: 2370px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    padding: 20px;
 }
 
 h1 {
     color: white;
     font-size: 125px;
     font-family: 'Oswald', sans-serif;
+	text-align: left;
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: normal;
+    letter-spacing: 0.10px;
+    margin: 20px;
+    margin-left: auto;
+}
 
+h2 {
+    color: white;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+    margin-left: 20px;
 }
 
 h3 {
     color: white;
     font-size: 27px;
+    font-weight: bold;
     font-family: 'Lato',sans-serif;
-
+    margin: 20px;
+    margin-left: auto;
 }
 
 p {
     color: white;
     font-size: 16px;
+    font-weight: normal;
     font-family: 'Lato',sans-serif;
-
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
-    
+    background-color: #14162C; opacity:0.6;
     overflow: hidden;
     font-family: 'Oswald', sans-serif;
   }
@@ -57,12 +130,9 @@ p {
     background-color: rgb(2, 109, 126);
     color: white;
   }
-
+   
 #viewwork {
-    left: 500px;
-    top: 500px;
-    position: absolute;
-	overflow: visible;
+    padding: 10px;
     width: 200px;
 	height: 60px;
     background-color: rgba(35,163,182,1);
@@ -70,6 +140,8 @@ p {
 	border-radius: 4px;
     font-size: 20px;
     color: white;
+    margin: 20px;
+    margin-left: auto;
 	
   }
 
@@ -83,32 +155,5 @@ p {
     color:white;
 }
 
-  #HI_IM_SAIR {
-	left: 500px;
-	top: 188px;
-	position: absolute;
-	overflow: visible;
-	width: 564px;
-	height: 196px;
-	text-align: left;
-	font-family: Oswald;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 125px;
-	color: rgba(255,255,255,1);
-	letter-spacing: 0.15px;
-}
-#Product_Management_Strategy__U {
-	left: 500px;
-	top: 384px;
-	position: absolute;
-	overflow: visible;
-	width: 562px;
-	height: 99px;
-	text-align: left;
-	font-family: Lato;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 27px;
-	color: rgba(255,255,255,1);
-}
+
+
